@@ -1,10 +1,25 @@
-import React from "react"
+import React, { useState } from "react"
 import { data } from "../assets/projects/data/data.js"
+import VideoModal from "./VideoModal.jsx"
 
 const Work = () => {
   // projects file
   const project = data
-  //setProject(data);
+
+  const [showVideoModal, setShowVideoModal] = useState(false)
+  const [videoUrl, setVideoUrl] = useState("") // Store the video URL here
+
+  // Function to open the video modal
+  const openVideoModal = (videoUrl) => {
+    setVideoUrl(videoUrl)
+    setShowVideoModal(true)
+  }
+
+  // Function to close the video modal
+  const closeVideoModal = () => {
+    setVideoUrl("")
+    setShowVideoModal(false)
+  }
 
   return (
     <div name="work" className="w-full md:h-screen text-gray-300 bg-[#ecf0f3]">
@@ -13,12 +28,12 @@ const Work = () => {
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
             Work
           </p>
-          <p className="py-6"> Check out some of my recent work</p>
+          <p className="py-6">Check out some of my recent work</p>
         </div>
 
         {/* container for projects */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-          {/* Gird Item */}
+          {/* Grid Item */}
           {project.map((item, index) => (
             <div
               key={index}
@@ -41,21 +56,27 @@ const Work = () => {
                       Code
                     </button>
                   </a>
-                  {/* eslint-disable-next-line */}
-                  <a href={item.live} target="_blank">
-                    <button
-                      className="text-center rounded-lg px-4 py-3 m-2
+                  {/* Use e.preventDefault() to prevent anchor tag navigation */}
+                  <button
+                    onClick={() => {
+                      openVideoModal(item.videoUrl)
+                    }}
+                    className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg"
-                    >
-                      Live
-                    </button>
-                  </a>
+                  >
+                    Live
+                  </button>
                 </div>
               </div>
             </div>
           ))}
         </div>
       </div>
+
+      {/* Conditionally render VideoModal when showVideoModal is true */}
+      {showVideoModal && (
+        <VideoModal videoUrl={videoUrl} onClose={closeVideoModal} />
+      )}
     </div>
   )
 }

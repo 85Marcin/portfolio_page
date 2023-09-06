@@ -9,7 +9,7 @@ function NavBar() {
   const handleClick = () => setNav(!nav)
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#ecf0f3] text-[#1f2937] tracking-wide shadow-md">
-      <div className="hidden md:flex ml-auto">
+      <div className="hidden md:flex ml-auto text-xl">
         <ul className="flex">
           <li>
             <Link to="home" smooth={true} duartion={500}>
@@ -109,7 +109,7 @@ function NavBar() {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
             <a
-              className="flex items-center justify-between w-full p-2 bg-grey-200 text-grey-300
+              className="flex items-center justify-between w-full p-2 bg-gray-300 
               "
               href="/Marcin-Egzmont.pdf"
               target="_blank"
