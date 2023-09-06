@@ -1,33 +1,27 @@
-import WorkIm from "../workImg.jpeg"
-import RealEst from "../realestate.jpg"
+import DVD from "../dvd_shop.png"
+import BreakTime from "../break_time.png"
+import CapstoneBooks from "../capstone_books.png"
 
 export const data = [
   {
     id: 1,
-    name: "React JS Application",
-    image: WorkIm,
-    github: "",
+    name: "DVD shop",
+    image: DVD,
+    github: "https://github.com/85Marcin/DVD_shop",
     videoUrl: "/videos/countdown.mp4",
   },
   {
     id: 2,
-    name: "React JS Application",
-    image: RealEst,
-    github: "",
+    name: "Break Time App",
+    image: BreakTime,
+    github: "https://github.com/85Marcin/BreakTime-app",
     videoUrl: "/videos/countdown.mp4",
   },
   {
     id: 3,
-    name: "React JS Application",
-    image: WorkIm,
-    github: "",
-    videoUrl: "/videos/countdown.mp4",
-  },
-  {
-    id: 4,
-    name: "React JS Application",
-    image: RealEst,
-    github: "",
+    name: "Capstone Books",
+    image: CapstoneBooks,
+    github: "https://github.com/85Marcin/Capstone_Book_Shop",
     videoUrl: "/videos/countdown.mp4",
   },
 ]

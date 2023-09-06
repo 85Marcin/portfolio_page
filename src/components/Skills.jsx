@@ -9,7 +9,7 @@ function Skills() {
       {/* container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
-          <p className="inline text-4xl font-bold  border-b-4 border-pink-600">
+          <p className="inline text-4xl font-bold text-[#5651e5]  border-b-4 border-pink-600">
             Skills
           </p>
           <p className="py-4">The are the technologies I have worked with</p>
