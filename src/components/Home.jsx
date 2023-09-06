@@ -19,7 +19,7 @@ function Home() {
           saclkdsnacldsnfjkhdsafhdsahfjhdsaklfhkdsahfjkldsahfjksdhjkflhdsjkfhsdkhfkjds
         </p>
         <div>
-          <Link to="work" smooth={true} duartion={500}>
+          <Link to="projects" smooth={true} duartion={500}>
             <button className="group border-2 border-[#cfd2d6] p-2 my-2 flex items-center bg-[#bfd0e6] hover:bg-[#e5e8eb] hover:border-[#bfd0e6] duration-200">
               View work
               <span className="group-hover:rotate-90 duration-300">

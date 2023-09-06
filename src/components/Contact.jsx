@@ -12,34 +12,30 @@ const Contact = () => {
         className="flex flex-col max-w-[600px] w-full"
       >
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-[#5651e5]">
+          <p className="text-4xl font-bold inline border-b-4 border-[#ebdb65] text-[#5651e5]">
             Contact
-          </p>
-          <p className="text-gray-300 py-4">
-            Submit the form below or shoot me an email -
-            vutukuri.kumar192st.niituniversity.in
           </p>
         </div>
         <input
-          className="bg-[#ccd6f6] p-2"
+          className="bg-[#ffffff] p-2"
           type="text"
           placeholder="Name"
           name="name"
         />
         <input
-          className="my-4 p-2 bg-[#ccd6f6]"
+          className="my-4 p-2 bg-[#ffffff]"
           type="email"
           placeholder="Email"
           name="email"
         />
         <textarea
-          className="bg-[#ccd6f6] p-2"
+          className="bg-[#ffffff] p-2"
           name="message"
           rows="10"
           placeholder="Message"
         ></textarea>
-        <button className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center">
-          Let's Collaborate
+        <button className="border-2 border-[#cfd2d6] p-2 my-3 flex items-center bg-[#bfd0e6]   hover:bg-[#e5e8eb] hover:border-[#bfd0e6] duration-200 mx-auto   ">
+          Submit
         </button>
       </form>
     </div>

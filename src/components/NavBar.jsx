@@ -27,8 +27,8 @@ function NavBar() {
             </Link>
           </li>
           <li>
-            <Link to="work" smooth={true} duartion={500}>
-              Work
+            <Link to="projects" smooth={true} duartion={500}>
+              Projects
             </Link>
           </li>
           <li>
@@ -66,8 +66,13 @@ function NavBar() {
           </Link>
         </li>
         <li className="py-6">
-          <Link onClick={handleClick} to="work" smooth={true} duartion={500}>
-            Work
+          <Link
+            onClick={handleClick}
+            to="projects"
+            smooth={true}
+            duartion={500}
+          >
+            Projects
           </Link>
         </li>
         <li className="py-6">

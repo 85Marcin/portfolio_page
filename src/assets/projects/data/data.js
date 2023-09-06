@@ -9,6 +9,7 @@ export const data = [
     image: DVD,
     github: "https://github.com/85Marcin/DVD_shop",
     videoUrl: "/videos/countdown.mp4",
+    description: "Inventory Management App",
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ export const data = [
     image: BreakTime,
     github: "https://github.com/85Marcin/BreakTime-app",
     videoUrl: "/videos/countdown.mp4",
+    description: "Habbit tracker",
   },
   {
     id: 3,
@@ -23,5 +25,6 @@ export const data = [
     image: CapstoneBooks,
     github: "https://github.com/85Marcin/Capstone_Book_Shop",
     videoUrl: "/videos/countdown.mp4",
+    description: "E-commerce with login authentication",
   },
 ]
