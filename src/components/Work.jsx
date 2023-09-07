@@ -24,11 +24,11 @@ const Work = () => {
   return (
     <div
       name="projects"
-      className="w-full md:h-screen text-gray-300 bg-[#ecf0f3]"
+      className="w-full md:h-screen text-[#414d5d] bg-[#ecf0f3]"
     >
       <div className="max-w-[1200px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-[#ebdb65] text-[#5651e5] ">
+          <p className="text-4xl font-bold inline border-b-4 border-[#bfd0e6] text-[#5651e5] ">
             Projects
           </p>
         </div>
@@ -70,16 +70,18 @@ const Work = () => {
                         openVideoModal(item.videoUrl)
                       }}
                       className="text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-gray-700 font-bold text-lg"
+                       bg-white text-[#2d3643] font-bold text-lg"
                     >
                       Demo
                     </button>
                   </div>
                 </div>
               </div>
-              <p className="mt-5 text-gray-500 font-bold text-2xl">
+              <p className="mt-5 text-[#2d3643] font-bold text-2xl">
                 {item.description}
               </p>
+              <p className="my-3 text-xl">{item.technology}</p>
+              <p>{item.moreInfo}</p>
             </div>
           ))}
         </div>

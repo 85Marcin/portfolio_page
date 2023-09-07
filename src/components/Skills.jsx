@@ -3,13 +3,14 @@ import CSS from "../assets/css.png"
 import JavaScript from "../assets/javascript.png"
 import React from "../assets/react.png"
 import TypeScript from "../assets/ts-logo-128.png"
+import { SiRedux, SiTailwindcss, SiMongodb } from "react-icons/si"
 function Skills() {
   return (
     <div name="skills" className="width-full h-screen bg-[#ecf0f3]">
       {/* container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
-          <p className="inline text-4xl font-bold text-[#5651e5]  border-b-4 border-[#ebdb65]">
+          <p className="inline text-4xl font-bold text-[#5651e5]  border-b-4 border-[#bfd0e6]">
             Skills
           </p>
           <p className="py-4">The are the technologies I have worked with</p>
@@ -44,16 +45,32 @@ function Skills() {
             <p className="my-4">React</p>
           </div>
           <div className="shadow-md hover:scale-105 duration-300">
-            <img src={HTML} alt="HTML icon" className="w-10 mx-auto" />
-            <p className="my-4">HTML</p>
+            <SiRedux
+              alt="Redux icon"
+              className="w-10 mx-auto"
+              size={40}
+              color="blue"
+            />
+            <p className="my-4">Redux</p>
           </div>
           <div className="shadow-md hover:scale-105 duration-300">
-            <img src={HTML} alt="HTML icon" className="w-10 mx-auto" />
-            <p className="my-4">HTML</p>
+            <SiTailwindcss
+              alt="Tailwind icon"
+              className="w-10 mx-auto"
+              size={40}
+              color="lightblue"
+            />
+
+            <p className="my-4">Tailwind CSS</p>
           </div>
           <div className="shadow-md hover:scale-105 duration-300">
-            <img src={HTML} alt="HTML icon" className="w-10 mx-auto" />
-            <p className="my-4">HTML</p>
+            <SiMongodb
+              alt="MongoDB icon"
+              className="w-10 mx-auto"
+              size={40}
+              color="green"
+            />
+            <p className="my-4">MongoDB</p>
           </div>
         </div>
       </div>

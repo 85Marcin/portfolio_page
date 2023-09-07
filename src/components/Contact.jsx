@@ -12,7 +12,7 @@ const Contact = () => {
         className="flex flex-col max-w-[600px] w-full"
       >
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-[#ebdb65] text-[#5651e5]">
+          <p className="text-4xl font-bold inline border-b-4 border-[#bfd0e6] text-[#5651e5]">
             Contact
           </p>
         </div>
@@ -21,12 +21,14 @@ const Contact = () => {
           type="text"
           placeholder="Name"
           name="name"
+          required
         />
         <input
           className="my-4 p-2 bg-[#ffffff]"
           type="email"
           placeholder="Email"
           name="email"
+          required
         />
         <textarea
           className="bg-[#ffffff] p-2"
