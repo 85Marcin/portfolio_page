@@ -35,12 +35,12 @@ const Work = () => {
 
         {/* container for projects */}
         <div
-          className="grid sm:grid-cols-2  md:grid-cols-3 gap-8 grid-flow-row text-center"
+          className="grid grid-flow-row gap-8 text-center sm:grid-cols-2 md:grid-cols-3"
           //   style={{ gridAutoFlow: "row" }}
         >
           {/* Grid Item */}
           {project.map((item, index) => (
-            <div>
+            <div key={item.id}>
               <div
                 key={index}
                 style={{
@@ -52,16 +52,13 @@ const Work = () => {
               >
                 {/* Hover effect for images */}
                 <div className="opacity-0 group-hover:opacity-100">
-                  <span className="text-2xl font bold text-white tracking-wider ">
+                  <span className="text-2xl tracking-wider text-white font bold ">
                     {item.name}
                   </span>
                   <div className="pt-8 text-center">
                     {/* eslint-disable-next-line */}
                     <a href={item.github} target="_blank">
-                      <button
-                        className="text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-gray-700 font-bold text-lg"
-                      >
+                      <button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg">
                         Code
                       </button>
                     </a>

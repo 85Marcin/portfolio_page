@@ -87,7 +87,7 @@ function NavBar() {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 ">
             <a
               className="flex items-center justify-between w-full p-2 bg-blue-400 text-grey-300"
-              href="/"
+              href="https://www.linkedin.com/in/marcin-egzmont-194937273/"
             >
               LinkedIn
               <FaLinkedinIn size={30} />
@@ -96,7 +96,7 @@ function NavBar() {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
             <a
               className="flex items-center justify-between w-full p-2 bg-[#333333] text-grey-300"
-              href="/"
+              href="https://github.com/85Marcin"
               style={{ backgroundColor: "gray" }}
             >
               Github

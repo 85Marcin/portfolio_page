@@ -17,12 +17,11 @@ const About = () => {
             </div>
             <div>
               <p className="">
-                Irure esse esse tempor quis veniam irure eu culpa eiusmod. Culpa
-                et sint sint eu exercitation esse ad incididunt Lorem fugiat
-                occaecat consectetur dolore proident. Eiusmod ex irure cupidatat
-                dolore pariatur sint enim proident excepteur in nostrud. Velit
-                laboris ipsum anim deserunt. Sint nulla excepteur duis irure
-                exercitation eu. Occaecat minim nostrud anim ex.
+                I'm a dedicated junior software developer with an unwavering
+                passion for the world of software. My enthusiasm lies in
+                continually embracing new technologies. I'm driven by the
+                excitement of learning and the constant pursuit of improvement
+                while seeking opportunities to expand my knowledge and skillset.
               </p>
             </div>
           </div>

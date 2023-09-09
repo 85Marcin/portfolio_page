@@ -13,7 +13,9 @@ function Skills() {
           <p className="inline text-4xl font-bold text-[#5651e5]  border-b-4 border-[#bfd0e6]">
             Skills
           </p>
-          <p className="py-4">The are the technologies I have worked with</p>
+          <p className="py-4">
+            I have experience with the following technologies.
+          </p>
         </div>
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
           <div className="shadow-md hover:scale-105 duration-300">

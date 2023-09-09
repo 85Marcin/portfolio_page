@@ -14,9 +14,9 @@ function Home() {
           I'm a software developer
         </h2>
         <p className="py-4 max-w-[700px]">
-          loerem dasndjsaknkjvc dsalkn klndjs clks las h sjhkbc bjdhsa chsaj
-          chjdsa cjk
-          saclkdsnacldsnfjkhdsafhdsahfjhdsaklfhkdsahfjkldsahfjksdhjkflhdsjkfhsdkhfkjds
+          Welcome to my portfolio, where my passion for software development
+          comes to life. Here, I invite you to explore my journey of continuous
+          learning and improvement in the dynamic world of technology.
         </p>
         <div>
           <Link to="projects" smooth={true} duartion={500}>
