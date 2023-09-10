@@ -9,7 +9,7 @@ function NavBar() {
   const handleClick = () => setNav(!nav)
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#ecf0f3] text-[#1f2937] tracking-wide shadow-md">
-      <div className="hidden md:flex ml-auto text-xl">
+      <div className="hidden ml-auto text-xl md:flex">
         <ul className="flex">
           <li>
             <Link to="home" smooth={true} duartion={500}>
@@ -39,7 +39,7 @@ function NavBar() {
         </ul>
       </div>
       {/* Hamburger */}
-      <div onClick={handleClick} className="md:hidden ml-auto z-10">
+      <div onClick={handleClick} className="z-10 ml-auto md:hidden">
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
       {/* mobile menu */}
@@ -114,9 +114,8 @@ function NavBar() {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
             <a
-              className="flex items-center justify-between w-full p-2 bg-gray-300 
-              "
-              href="/Marcin-Egzmont.pdf"
+              className="flex items-center justify-between w-full p-2 bg-gray-300 "
+              href="/Marcin Egzmont CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               download="my-cv.pdf"
