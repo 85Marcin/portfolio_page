@@ -62,7 +62,7 @@ const Work = () => {
                         Code
                       </button>
                     </a>
-                    <button
+                    {/* <button
                       onClick={() => {
                         openVideoModal(item.videoUrl)
                       }}
@@ -70,7 +70,7 @@ const Work = () => {
                        bg-white text-[#2d3643] font-bold text-lg"
                     >
                       Demo
-                    </button>
+                    </button> */}
                   </div>
                 </div>
               </div>
