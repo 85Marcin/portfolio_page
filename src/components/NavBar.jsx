@@ -118,7 +118,7 @@ function NavBar() {
               href="/Marcin Egzmont CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              download="my-cv.pdf"
+              download="Marcin_Egzmont_CV.pdf"
             >
               CV
               <BsFillPersonLinesFill size={30} />
