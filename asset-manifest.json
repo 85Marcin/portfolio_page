@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio_page/static/css/main.565ff259.css",
-    "main.js": "/portfolio_page/static/js/main.e1133ad2.js",
+    "main.js": "/portfolio_page/static/js/main.37349b69.js",
     "static/media/capstone_books.png": "/portfolio_page/static/media/capstone_books.08170b9a435616f1e40a.png",
     "static/media/break_time.png": "/portfolio_page/static/media/break_time.0f0ac399ca7a11e72c50.png",
     "static/media/dvd_shop.png": "/portfolio_page/static/media/dvd_shop.b2a8e85e762a941a75c7.png",
@@ -11,10 +11,10 @@
     "static/media/javascript.png": "/portfolio_page/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio_page/index.html",
     "main.565ff259.css.map": "/portfolio_page/static/css/main.565ff259.css.map",
-    "main.e1133ad2.js.map": "/portfolio_page/static/js/main.e1133ad2.js.map"
+    "main.37349b69.js.map": "/portfolio_page/static/js/main.37349b69.js.map"
   },
   "entrypoints": [
     "static/css/main.565ff259.css",
-    "static/js/main.e1133ad2.js"
+    "static/js/main.37349b69.js"
   ]
 }
